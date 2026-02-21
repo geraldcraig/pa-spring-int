@@ -13,10 +13,25 @@ public class Main {
         sleepy.setAuthor("Disney");
         dwarfs.add(sleepy);
 
+        Dwarf happy = new Dwarf();
+        happy.setName("Happy");
+        happy.setAuthor("Disney");
+        dwarfs.add(happy);
+
+        Dwarf doc = new Dwarf();
+        doc.setName("Doc");
+        doc.setAuthor("Disney");
+        dwarfs.add(doc);
+
         Dwarf thorin = new Dwarf();
         thorin.setName("Thorin");
         thorin.setAuthor("Tolkien");
         dwarfs.add(thorin);
+
+        Dwarf balin = new Dwarf();
+        balin.setName("Balin");
+        balin.setAuthor("Tolkien");
+        dwarfs.add(balin);
 
         System.out.println("The Disney Dwarfs are:");
 
